@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Ecoglow webpage</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+
+  <!-- Making it possible to skip to main content-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+  
+
+<body>
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+ <!-- Top Navigation Menu -->
+ <div class="topnav" id="myTopnav">
+  <div class="logo">
+    <a href="index.html"><img src="images/logo.png" style="max-width:80px " alt="logo brand"></a>
+  </div>
+  <div id="myLinks">
+    <a href="index.html">Home</a>
+    <div class="dropdown">
+      <a href="javascript:void(0);" class="dropbtn" onclick="toggleDropdown()">
+        Brand <i class="fa fa-chevron-down"></i>
+      </a>
+      <div class="dropdown-content" id="aboutDropdown">
+        <a href="product.html" class="active">Products</a>
+        <a href="findus.html" class="active">Find us</a>
+      </div>
+    </div>
+    <a href="about.html">About</a>
+    <a href="podcast.html">Podcast</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<!-- Finish Navigation Menu -->
+
+  <!-- Main content -->
+  <main id="content"> 
+
+      <!-- start section X  -->
+    <section id="sectionX">
+      <h1 tabindex="0">About us</h1>
+      <h2 tabindex="0">Our products are produced with ingredients sourced from the sea and eco-friendly sources.</h2>
+    <div class="grid-container">
+      <div class="grid-item">
+        <img tabindex="0" src="images/plantenvolvedplastic.png" alt="plant" title="image of a plant covered by plastic film" style="width:200px; height:200px">
+      </div>
+      <h2 tabindex="0">Mission</h2>
+      <p tabindex="0">Revolutionize beauty with sustainable solutions, starting with innovative packaging, empowering consumers to make eco-conscious choices.</p>
+      <div class="grid-item">
+        <img tabindex="0" src="images/plasticbottlesan.png" alt="bottle" title="image of a plastic bottle on the san" style="width:200px; height: 200px">
+      </div>
+      <h2 tabindex="0">Vision</h2>
+      <p tabindex="0">Create a world where beauty aligns with sustainability, inspiring a global community committed to reducing waste and embracing eco-friendly beauty practices.</p>
+      <div class="grid-item">
+        <img tabindex="0" src="images/handsholddingbottle.png" alt="hands" title="image of hands holding a skin care product" style="width:200px; height: 200px">
+        <h2 tabindex="0">Values</h2>
+      <p tabindex="0">Collaborate for a more sustainable future, taking responsibility for products' entire lifecycle and promoting a circular economy.</p>
+      </div>
+      <h2 tabindex="0">Values</h2>
+      <p tabindex="0">Collaborate for a more sustainable future, taking responsibility for products' entire lifecycle and promoting a circular economy.</p>
+      </div>
+  </section>
+     <!-- finish section X  -->
+<hr>
+          <!-- finish section 2  -->
+          <section class="section2">
+            <h3 tabindex="0">Products made with Posidonia</h3>
+            <p tabindex="0">Discover the vital role these underwater ecosystems play in sustaining ocean life, capturing carbon, and supporting biodiversity.</p>
+            <div class="videodiv">
+              <video tabindex="0" controls id="video">
+                <source src="images/videoposidonia.mp4" type="video/mp4">
+                <source src="images/videoposidonia.webm" type="video/webm">
+                <track label="English" kind="subtitles" srclang="en" src="vtt/video-en.vtt" default>
+              </video>
+            </div>
+          </section>
+          
+         <!-- finish section 2  -->
+
+</main>
+
+<!-- start Footer-->
+<footer>
+  <div class="footer">
+    <div class="iframe-container">
+      <iframe tabindex="0"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1947.1423417991984!2d10.670595777112645!3d60.78896179334137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4641da12feff8215%3A0x2dd87120cf6c6be8!2sRaufossvegen%2040%2C%202821%20Gj%C3%B8vik!5e0!3m2!1ses!2sno!4v1700067801605!5m2!1ses!2sno"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+
+    <div id="navbarfooter">
+      <a tabindex="0" href="index.html">Home</a>
+      <a tabindex="0" href="about.html">About</a>
+      <a tabindex="0" href="product.html">Products</a>
+      <a tabindex="0" href="contact.html">Contact</a>
+    </div>
+
+    <p tabindex="0">
+      Cookies and Policities. All rights reserved
+    </p>
+    
+  </div>
+</footer>
+<!-- finish Footer-->
+
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  
+    <!-- Title of the page -->
+    <title>Welcome to EcoGlow</title>
+  
+     <!-- Making it possible to skip to main content-->
+  <a tabindex="0" class="skip-to-content" href="#content">Skip to main content</a>
+  </head>
+  
+  <body>
+  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+<!-- Top Navigation Menu -->
+<div class="topnav" id="myTopnav">
+  <div class="logo">
+    <a href="index.html"><img src="images/logo.png" style="max-width:80px " alt="logo brand"></a>
+  </div>
+  <div id="myLinks">
+    <a href="index.html">Home</a>
+    <div class="dropdown">
+      <a href="javascript:void(0);" class="dropbtn" onclick="toggleDropdown()">
+        Brand <i class="fa fa-chevron-down"></i>
+      </a>
+      <div class="dropdown-content" id="aboutDropdown">
+        <a href="product.html"  class="active">Products</a>
+        <a href="findus.html"  class="active">Find us</a>
+      </div>
+    </div>
+    <a href="about.html">About</a>
+    <a href="podcast.html">Podcast</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<!--finish Navigation Menu -->
+
+  
+  
+  <main id="content">
+      <!-- start intro page-->
+     
+       <div class="podcast">
+        <div id="popup">
+          <button id="close-btn" onclick="closePopup()" tabindex="0" aria-label="close">&#10006;</button>
+          <h1 tabindex="0">🌱 Dive into the sustainable side of life with our podcast!</h1>
+          <p tabindex="0">Subscribe on Spot   ify to join the conversation on sustainability, healthy habits, and radiant skin. Your sustainable lifestyle begins with a simple click.</p>
+          <button id=subscribe onclick="closePopup()">Subscribe</button>
+          <button id=nosubscribe onclick="closePopup()">No, thanks</button>
+        </div>
+
+           <h1 tabindex="0" > EcoGlow Podcast</h1>
+           <p tabindex="0"> Dive into the auditory realm with our podcasting expertise. 
+            We're not just about sound; we're about stories, conversations, 
+            and the power of the spoken word. 
+            Elevate your listening experience with our diverse range of podcasts, each crafted to captivate and inspire. 
+            Tune in and let the journey begin. </p>
+           </div> 
+        
+  <hr>
+ 
+
+      <video tabindex="0" class="audio" controls>
+        <source src="images/podcast.mp3" type="audio/mpeg">
+        <track  label="English" kind="subtitles" srclang="en" src="vtt/podcast.vtt" default>
+      </video>
+
+   </main>
+
+   
+<!-- start Footer-->
+<footer>
+  <div class="footer">
+    <div class="iframe-container">
+      <iframe tabindex="0"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1947.1423417991984!2d10.670595777112645!3d60.78896179334137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4641da12feff8215%3A0x2dd87120cf6c6be8!2sRaufossvegen%2040%2C%202821%20Gj%C3%B8vik!5e0!3m2!1ses!2sno!4v1700067801605!5m2!1ses!2sno"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+
+    <div id="navbarfooter">
+      <a tabindex="0" href="index.html">Home</a>
+      <a tabindex="0" href="about.html">About</a>
+      <a tabindex="0" href="product.html">Products</a>
+      <a tabindex="0" href="contact.html">Contact</a>
+    </div>
+
+    <p tabindex="0">
+      Cookies and Policities. All rights reserved
+    </p>
+    
+  </div>
+</footer>
+<!-- finish Footer-->
+
+</body>
+</html>

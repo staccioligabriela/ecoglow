@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Ecoglow webpage</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+
+   <!-- Making it possible to skip to main content-->
+   <a tabindex="0" class="skip-to-content" href="#content">Skip to main content</a>
+</head>
+
+<body>
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Top Navigation Menu -->
+<div class="topnav" id="myTopnav">
+  <div class="logo">
+    <a href="index.html"><img src="images/logo.png" style="max-width:80px " alt="logo brand"></a>
+  </div>
+  <div id="myLinks">
+    <a href="index.html">Home</a>
+    <div class="dropdown">
+      <a href="javascript:void(0);" class="dropbtn" onclick="toggleDropdown()">Brand</a>
+      <div class="dropdown-content" id="aboutDropdown">
+        <a href="product.html"  class="active">Products</a>
+        <a href="findus.html"  class="active">Find us</a>
+      </div>
+    </div>
+    <a href="about.html">About</a>
+    <a href="podcast.html">Podcast</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<!--finish Navigation Menu -->
+
+
+
+<main id="content">
+    <div class="subPage-contentContainer">
+      <h1 tabindex="0"> 📍 Find our vending machines</h1>
+      <p tabindex="0"> Looking to restock your product? <br></br> Locate the nearest refill station for a hassle-free replenishment experience.</p>
+
+  <!-- DeCora Hip Hop Tour Table -->
+<div class="container-table">
+  <table summary="Find the refill machines">
+    <tr>
+      <th tabindex="0" scope="col">Place</th>
+      <th tabindex="0" scope="col">Location</th>
+      <th tabindex="0" scope="col">Schedule</th>
+     
+    </tr>
+    <tr>
+      <td tabindex="0" scope="row">CC Gjøvik</td>
+      <td tabindex="0" scope="row">Jernbanesvingen 6, 2821 Gjøvik</td>
+      <td tabindex="0" scope="row">Monday-Saturday</td>
+     
+    </tr>
+    <tr>
+      <td tabindex="0" scope="row">CC Lillehammar</td>
+      <td tabindex="0" scope="row">Sliperivegen 2, 2609 Lillehammer</td>
+      <td tabindex="0" scope="row">24/7</td>
+     
+    </tr>
+  </table>
+</div>
+
+</main>
+
+
+<!-- start Footer-->
+<footer>
+  <div class="footer">
+    <div class="iframe-container">
+      <iframe tabindex="0"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1947.1423417991984!2d10.670595777112645!3d60.78896179334137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4641da12feff8215%3A0x2dd87120cf6c6be8!2sRaufossvegen%2040%2C%202821%20Gj%C3%B8vik!5e0!3m2!1ses!2sno!4v1700067801605!5m2!1ses!2sno"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+
+    <div id="navbarfooter">
+      <a tabindex="0" href="index.html">Home</a>
+      <a tabindex="0" href="about.html">About</a>
+      <a tabindex="0" href="product.html">Products</a>
+      <a tabindex="0" href="contact.html">Contact</a>
+    </div>
+
+    <p tabindex="0">
+      Cookies and Policities. All rights reserved
+    </p>
+    
+  </div>
+</footer>
+<!-- finish Footer-->
+
+</body>
+</html>

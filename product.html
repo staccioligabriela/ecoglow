@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Ecoglow webpage</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+
+ <!-- Making it possible to skip to main content-->
+ <a tabindex="0" class="skip-to-content" href="#content">Skip to main content</a>
+</head>
+
+<body>
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Top Navigation Menu -->
+<div class="topnav" id="myTopnav">
+  <div class="logo">
+    <a href="index.html"><img src="images/logo.png" style="max-width:80px " alt="logo brand"></a>
+  </div>
+  <div id="myLinks">
+    <a href="index.html">Home</a>
+    <div class="dropdown">
+      <a href="javascript:void(0);" class="dropbtn" onclick="toggleDropdown()">
+        Brand <i class="fa fa-chevron-down"></i>
+      </a>
+      <div class="dropdown-content" id="aboutDropdown">
+        <a href="product.html"  class="active">Products</a>
+        <a href="findus.html"  class="active">Find us</a>
+      </div>
+    </div>
+    <a href="about.html">About</a>
+    <a href="podcast.html">Podcast</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<!--finish Navigation Menu -->
+
+<main id="content">
+    <!--start Section 3-->
+    <div class="productsintro"> 
+        <h1 tabindex="0">Products</h1>
+        <h2 tabindex="0">First, choose your packaging </h2>
+        <p tabindex="0">Discover the beauty of choice with our exquisite range of skincare essentials</p>
+
+    </div>
+    <section class="section3">
+        <div class="flex-container">
+          <div class="flex-item">
+            <img tabindex="0" src="images/small.png" alt="picture of small packaging bottle">
+            <h3 tabindex="0" >Small</h3>
+            <p tabindex="0" id="price1">Price 120 kr</p>
+          </div>
+          <div class="flex-item">
+            <img tabindex="0" src="images/medium.png"  alt="picture of medium packaging bottle">
+            <h3 tabindex="0">Medium</h3>
+            <p tabindex="0" id="price2">Price 140 kr</p>
+          </div>
+          <div class="flex-item">
+            <img  tabindex="0" src="images/larger.png"  alt="picture of large packaging bottle">
+            <h3 tabindex="0"> Large</h3>
+            <p tabindex="0" id="price3">Price 160 kr</p>
+          </div>
+        </div>
+    
+      </section>
+         <!--finish Section 3-->
+
+    <section class="section4"> 
+    <h4 tabindex="0"> Then, choose the product to fill it...</h4>
+    <h5 tabindex="0" id="facewash"> 🧼 Face wash</h5 >
+    <h5  tabindex="0" id="moisturaizer"> 🧴 Moisturaizer</h5 >
+    <h5  tabindex="0" id="toner"> 🧽 Toner</h5>
+</section>
+</main>
+ 
+<!-- start Footer-->
+<footer>
+  <div class="footer">
+    <div class="iframe-container">
+      <iframe tabindex="0"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1947.1423417991984!2d10.670595777112645!3d60.78896179334137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4641da12feff8215%3A0x2dd87120cf6c6be8!2sRaufossvegen%2040%2C%202821%20Gj%C3%B8vik!5e0!3m2!1ses!2sno!4v1700067801605!5m2!1ses!2sno"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+
+    <div id="navbarfooter">
+      <a tabindex="0" href="index.html">Home</a>
+      <a tabindex="0" href="about.html">About</a>
+      <a tabindex="0" href="product.html">Products</a>
+      <a tabindex="0" href="contact.html">Contact</a>
+    </div>
+
+    <p tabindex="0">
+      Cookies and Policities. All rights reserved
+    </p>
+    
+  </div>
+</footer>
+<!-- finish Footer-->
+
+</body>
+</html>

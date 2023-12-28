@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Ecoglow webpage</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+
+  <!-- Making it possible to skip to main content-->
+   <!-- Making it possible to skip to main content-->
+   <a tabindex="0" class="skip-to-content" href="#content">Skip to main content</a>
+  </head>
+  
+
+<body>
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <!-- Top Navigation Menu -->
+   <div class="topnav" id="myTopnav">
+    <div class="logo">
+      <a href="index.html"><img src="images/logo.png" style="max-width:80px " alt="logo brand"></a>
+    </div>
+    <div id="myLinks">
+      <a href="index.html">Home</a>
+      <div class="dropdown">
+        <a href="javascript:void(0);" class="dropbtn" onclick="toggleDropdown()">
+          Brand <i class="fa fa-chevron-down"></i>
+        </a>
+        <div class="dropdown-content" id="aboutDropdown">
+          <a href="product.html" class="active">Products</a>
+          <a href="findus.html" class="active">Find us</a>
+        </div>
+      </div>
+      <a href="about.html">About</a>
+      <a href="podcast.html">Podcast</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  <!-- Finish Navigation Menu -->
+
+
+<main id="content">
+    <!-- start intro page-->
+     <div tabindex="0" class="form">
+         <h1 tabindex="0"> Do you have something to say?</h1>
+         <p tabindex="0"> <em>Join the Ecoglow Movement: Your Voice, Your Impact.</em> <br>
+            We believe in the power of collective brilliance, and we want to hear from you! Share your thoughts, ideas, or burning questions about Ecoglow and our commitment to sustainable beauty.</p>
+     </div>
+
+<!-- start Contact form-->
+<div class="container">
+  <form action="action_page.php">
+
+    <div class="form-group">
+      <label for="first-name">First Name</label>
+      <input tabindex="0" type="text" id="first-name" name="firstname" placeholder="Your name.." aria-required="true" required>
+    </div>
+
+    <div class="form-group">
+      <label for="last-name">Last Name</label>
+      <input tabindex="0" type="text" id="last-name" name="lastname" placeholder="Your last name.." aria-required="true" required>
+    </div>
+
+    <div class="form-group">
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <!-- opciones del país aquí -->
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="subject">Subject</label>
+      <textarea tabindex="0" id="subject" name="subject" placeholder="Do you have more ideas? Share with us!" style="height:120px" aria-required="true" required></textarea>
+      <div class="error-message" id="error" aria-live="assertive" aria-atomic="true" aria-relevant="all"></div>
+    </div>
+
+    <div>
+      <button class="submit-button" type="button" onclick="checkInputs()">Submit</button>
+    </div>
+
+  </form>
+</div>
+
+<!-- start social media icons-->
+<div class="icons">
+  <h2 tabindex="0">Contact us</h2>
+  <p tabindex="0">Address: Raufossvegen 40, 2821 Gjøvik <br>
+    Phone number: <a href="tel:655337788">655 33 77 88</a></p>
+</div>
+<div class="icons2">
+  <a tabindex="0" href="https://www.facebook.com" class="fa fa-facebook" target="_blank" aria-label="Facebook page"></a>
+  <a tabindex="0" href="https://www.instagram.com" class="fa fa-instagram" target="_blank" aria-label="Instagram page"></a>
+</div>
+</main>
+<!-- finish social media icons-->
+
+
+<!-- start Footer-->
+<footer>
+  <div class="footer">
+    <div class="iframe-container">
+      <iframe tabindex="0"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1947.1423417991984!2d10.670595777112645!3d60.78896179334137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4641da12feff8215%3A0x2dd87120cf6c6be8!2sRaufossvegen%2040%2C%202821%20Gj%C3%B8vik!5e0!3m2!1ses!2sno!4v1700067801605!5m2!1ses!2sno"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+
+    <div id="navbarfooter">
+      <a tabindex="0" href="index.html">Home</a>
+      <a tabindex="0" href="about.html">About</a>
+      <a tabindex="0" href="product.html">Products</a>
+      <a tabindex="0" href="contact.html">Contact</a>
+    </div>
+
+    <p tabindex="0">
+      Cookies and Policities. All rights reserved
+    </p>
+    
+  </div>
+</footer>
+<!-- finish Footer-->
+</body>
+</html>
